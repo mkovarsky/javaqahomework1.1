@@ -1,16 +1,14 @@
 # Отчёт о тестировании KeyValidator
 
-## Будет проверено:
-### Инструкция по установке OpenJDK11 работает под вашу ОС
-### Приложение запускается и совместимо с Java 11
-### Приложение работает согласно руководству использования
 
-<14.02.2020> - <14.02.2020> было проведено функциональное тестирование приложения KeyValidator.
+
+<14.02.2020> - <14.02.2020> была проведена проверка инструкция по установке OpenJDK11, запуск и совместимость приложения с Java 11, функциональное тестирование приложения KeyValidator.
 
 На тестирование затрачено: 1 час
 
 В результате тестирования выявлены следующие дефекты:
-* 
+* [Проверка ключей на валидность имеет результат отличный от ожидаемого](https://github.com/mkovarsky/javaqahomework1.1/issues/1)
+
 ## Описание процесса тестирования
 
 1. Установлен, согласно инструкции, и запущен OpenJDK11 на Microsoft Windows [Version 10.0.18362.657];
@@ -18,8 +16,8 @@
 1. Проведено тестирование KeyValidator согласно руководству использования.
 
 В процессе тестирования использовались следующие артефакты:
-* [Инструкция по установке OpenJDK 11] (https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md)
-* [Руководство использования KeyValidator] (https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
+* [Инструкция по установке OpenJDK 11](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md)
+* [Руководство использования KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
 * KeyValidator.class
 
 В качестве тестовых данных использовались данные:
@@ -40,6 +38,6 @@
 * c2bc778a-1cb9-46c6-b435-0489649d2a42
 * 2fb98b44-93e7-3bdd-a2ad-79347bfe4ad1
 
-Тестирование производилось в следующем окружении:
+### Тестирование производилось в следующем окружении:
 * Microsoft Windows [Version 10.0.18362.657]
 * Openjdk version "11.0.6" 2020-01-14
