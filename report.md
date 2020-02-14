@@ -15,10 +15,6 @@
 1. Приложение KeyValidator запускается и работает на Java 11;
 1. Проведено тестирование KeyValidator согласно руководству использования.
 
-В процессе тестирования использовались следующие артефакты:
-* [Инструкция по установке OpenJDK 11](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md)
-* [Руководство использования KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
-* KeyValidator.class
 
 В качестве тестовых данных использовались данные:
 
